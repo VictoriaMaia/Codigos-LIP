@@ -4,7 +4,9 @@
 
 2. Programa que recebe uma lista de inteiros e imprime somente os números que não são primos.
 
-3. Programa que recebe duas listas A e B e imprime a diferença simétrica de A e B. Sendo a diferença simétrica de A e B dada por (A - B) U (B - A).
+3. Programa que recebe duas listas A e B e imprime a diferença simétrica de A e B. Sendo a diferença simétrica de A e B dada por:
+
+(A - B) U (B - A).
 
 4. Programa que recebe uma lista L e a ordena em uma nova lista utilizando o mergeSort.
 

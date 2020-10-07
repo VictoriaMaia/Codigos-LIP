@@ -1,12 +1,12 @@
 # Informações sobre as questões:
 
-1. Predicado que concatena duas listas.
+### 1. Predicado que concatena duas listas.
 
-    Input : lista L1; lista L2; lista vazia X
+   Input : lista L1; lista L2; lista vazia X
     
-    Outuput : X contendo a união de L1 e L2
+   Outuput : X contendo a união de L1 e L2
   
-    Exemplo de execução:
+   Exemplo de execução:
   
   ```
   $ swipl q1.pl
@@ -14,13 +14,13 @@
     X = [1, 2, [3, 4]].  
   ```
 
-2. Predicado que reconhece se o número n3 é uma (soma, multiplicação, divisão, ou subtração) de dois números (n1 e n2).
+### 2. Predicado que reconhece se o número n3 é uma (soma, multiplicação, divisão, ou subtração) de dois números (n1 e n2).
 
-    Input : três inteiros (n1, n2, n3)
+   Input : três inteiros (n1, n2, n3)
     
-    Outuput : operação que n3 é resultado utilizando n1 e n2
+   Outuput : operação que n3 é resultado utilizando n1 e n2
 
-    Exemplo de execução:
+   Exemplo de execução:
   
   ```
   $ swipl q2.pl
@@ -30,13 +30,13 @@
   ```
 
 
-3. Predicado que calcula potencia.
+### 3. Predicado que calcula potencia.
 
-    Input : inteiro A; inteiro B; variável X
+   Input : inteiro A; inteiro B; variável X
     
-    Output : A^B
+   Output : A^B
     
-    Exemplo de execução:
+   Exemplo de execução:
     
     ```
     $ swipl q3.pl
@@ -45,13 +45,13 @@
     ```
     
     
-4. Predicado que calcula a moda.
+### 4. Predicado que calcula a moda.
 
-    Input : lista L; variável X
+   Input : lista L; variável X
     
-    Output : moda da lista L
+   Output : moda da lista L
     
-    Exemplo de execução:
+   Exemplo de execução:
     
     ```
     $ swipl q4.pl
@@ -59,7 +59,7 @@
       X = 1.
     ```
 
-5. Predicado que reconhece o último valor, o primeiro valor, o maior valor e o menor valor.
+### 5. Predicado que reconhece o último valor, o primeiro valor, o maior valor e o menor valor.
 
    Input : lista L
     

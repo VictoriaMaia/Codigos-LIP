@@ -1,13 +1,77 @@
 # Informações sobre as questões:
 
-1. Predicado concatena( L1, L2, L3 ) que concatena as listas L1 e L2 e coloca o resultado em L3.
+1. Predicado que concatena duas listas.
 
-2. Predicado que implement as quatro operações matemáticas, onde é possível saber se um número é uma (soma, multiplicação, divisão, ou subtração) de dois números. Ex.: operacao(X, Y, Z) pode imprimir "Z é uma soma de X+Y". Outro exemplo: operacao(18,3,6) imprime "6 é uma divisão de 18/3".
+  Input : lista L1; lista L2; lista vazia X
+    
+  Outuput : X contendo a união de L1 e L2
+  
+  Exemplo de execução:
+  
+  ```
+  $ swipl q1.pl
+  ?- concatenar([1,2],[3,4],X).
+    X = [1, 2, [3, 4]].  
+  ```
 
-3. Predicado potencia( A, B, X ), que coloca em X o valor do A^B.
+2. Predicado que reconhece se o número n3 é uma (soma, multiplicação, divisão, ou subtração) de dois números (n1 e n2).
 
-4. Predicado moda( L, X ). que coloca em X a moda da lista L. 
+    Input : três inteiros (n1, n2, n3)
+    
+    Outuput : operação que n3 é resultado utilizando n1 e n2
 
-5. Predicado ultimo_primeiro_maior_menor( L, U, P, M, N ) que, da lista L, coloca o último elemento em U, o primeiro elemento em P, o maior elemento em M e o menor elemento em N. 
+    Exemplo de execução:
+  
+  ```
+  $ swipl q2.pl
+  ?- qual_op(18,3,6).
+    6 é uma divisão de 18/3
+    true.
+  ```
 
-*Informações retiradas do enunciados das questões.
+
+3. Predicado que calcula potencia.
+
+    Input : inteiro A; inteiro B; variável X
+    
+    Output : A^B
+    
+    Exemplo de execução:
+    
+    ```
+    $ swipl q3.pl
+    ?- potencia(2,3,X).
+      X = 8.
+    ```
+    
+    
+4. Predicado que calcula a moda.
+
+    Input : lista L; variável X
+    
+    Output : moda da lista L
+    
+    Exemplo de execução:
+    
+    ```
+    $ swipl q4.pl
+    ?- moda([1,1,1,2,3,1,2],X).
+      X = 1.
+    ```
+
+5. Predicado que reconhece o último valor, o primeiro valor, o maior valor e o menor valor.
+
+   Input : lista L
+    
+   Output : último valor U, primeiro valor P, maior valor M, menor valor N
+
+   Exemplo de execução:
+   
+    ```
+    $ swipl q5.pl
+    ?- ultimo_primeiro_maior_menor([5,1,7,2],U,P,M,N).
+    U = 2,
+    P = 5,
+    M = 7,
+    N = 1.
+    ```

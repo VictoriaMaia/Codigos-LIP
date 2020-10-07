@@ -26,7 +26,9 @@
     [4]
   ```
 
-### 3. Programa que calcula a diferença simétrica de A e B. Sendo a diferença simétrica de A e B dada por: *(A - B) U (B - A)*
+### 3. Programa que calcula a diferença simétrica de A e B. Sendo a diferença simétrica de A e B dada por: 
+
+### *(A - B) U (B - A)*
   
    Input  : Duas listas de inteiros
   

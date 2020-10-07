@@ -6,4 +6,7 @@
 
 fibonacci = lambda n : (n==1 and 1) or (n==2 and 1)or (fibonacci(n-1) + fibonacci(n-2)) 
 
-print(list(map(fibonacci, range(1, int(input())+1))))
+import sys
+
+n = sys.argv[1]
+print(list(map(fibonacci, range(1, int(n)+1))))

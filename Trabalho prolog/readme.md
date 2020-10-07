@@ -2,11 +2,11 @@
 
 1. Predicado que concatena duas listas.
 
-  Input : lista L1; lista L2; lista vazia X
+    Input : lista L1; lista L2; lista vazia X
     
-  Outuput : X contendo a união de L1 e L2
+    Outuput : X contendo a união de L1 e L2
   
-  Exemplo de execução:
+    Exemplo de execução:
   
   ```
   $ swipl q1.pl
